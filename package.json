@@ -2,7 +2,7 @@
     "name": "lookup",
     "displayName": "lookup",
     "description": "Lookup File (.lookup) highlight support for VS Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "florianthievent",
     "license": "SEE LICENSE IN LICENSE.md",
     "icon": "media/lookup-logo.gif",

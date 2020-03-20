@@ -1,4 +1,4 @@
-# Impact Policy Language VSCode Support
+# IBM Lookup File VSCode Support
 
 ## Introduction
 Netcool/Tivoli Lookup Language (.lookup) is a proprietary language to write lookups for IBM Tivoli Netcool/Objectserver Probes. 
