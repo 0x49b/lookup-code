@@ -1,0 +1,41 @@
+{
+    "name": "lookup",
+    "displayName": "lookup",
+    "description": "Lookup File (.lookup) highlight support for VS Code",
+    "version": "0.0.1",
+    "publisher": "florianthievent",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "icon": "media/lookup-logo.gif",
+    "bugs": {
+        "url": "https://github.com/lichtwellenreiter/lookup-code/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lichtwellenreiter/lookup-code.git"
+    },
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "lookup",
+        "netcool",
+        "tivoli",
+        "ibm"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lookup",
+            "aliases": ["IBMLookupLanguage", "lookup"],
+            "extensions": [".lookup"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lookup",
+            "scopeName": "source.lookup",
+            "path": "./syntaxes/lookup.tmLanguage.json"
+        }]
+    }
+}
